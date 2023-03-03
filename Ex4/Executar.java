@@ -13,7 +13,7 @@ public class Executar {
             String marca = JOptionPane.showInputDialog("marca: ");
             String modelo = JOptionPane.showInputDialog("modelo: ");
 
-            carros[i] = new Carros(placa, ano, localidade, cor, marca, modelo);
+            carros[i] = new Carros();
         }
 
         String texto = "Veículos:\n";

@@ -6,12 +6,12 @@ public class Executar {
     public static void main(String[] args) {
         Carros[] carros = new Carros[1];
         for (int i = 0; i < carros.length; i++) {
-            String placa = JOptionPane.showInputDialog("Placa: ");
-            int ano = Integer.parseInt(JOptionPane.showInputDialog("Ano: "));
-            String localidade = JOptionPane.showInputDialog("localidade: ");
-            String cor = JOptionPane.showInputDialog("Cor: ");
-            String marca = JOptionPane.showInputDialog("marca: ");
-            String modelo = JOptionPane.showInputDialog("modelo: ");
+            carros[i].placa = JOptionPane.showInputDialog("Placa: ");
+            carros[i].ano = Integer.parseInt(JOptionPane.showInputDialog("Ano: "));
+            carros[i].localidade = JOptionPane.showInputDialog("localidade: ");
+            carros[i].cor = JOptionPane.showInputDialog("Cor: ");
+            carros[i].marca = JOptionPane.showInputDialog("marca: ");
+            carros[i].modelo = JOptionPane.showInputDialog("modelo: ");
 
             carros[i] = new Carros();
         }

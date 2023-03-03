@@ -8,15 +8,6 @@ public class Carros {
     public String marca;
     public String modelo;
 
-    public Carros(String placa, int ano, String localidade, String cor, String marca, String modelo) {
-        this.placa = placa;
-        this.ano = ano;
-        this.localidade = localidade;
-        this.cor = cor;
-        this.marca = marca;
-        this.modelo = modelo;
-    }
-
     public String getPlaca() {
         return placa;
     }
